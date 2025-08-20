@@ -1,0 +1,94 @@
+Let's use kafka with console
+
+
+* Create new topic with kafka topics
+* Produce example message with kafka-console-produce
+* Consume the message with kafka-console-consumer
+
+
+
+
+
+
+
+
+C:/Users/VIKOLLI/OneDrive - Capgemini/Documents/Setup/kafka_2.12-3.8.0/kafka_2.12-3.8.0
+
+C:/kafka_2.12-3.8.0.
+
+
+
+
+
+
+
+
+
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+.\bin\windows\Kafka-console-producer.bat --bootstrap-server localhost:9092 --topic my-topic
+
+.\bin\windows\Kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my-topic
+
+
+
+
+
+ 
+Once done with msg from producer and consumer -
+ 
+To consume a Kafka topic and display both the key and value using the Kafka-console-consumer in new cmd command, you can use the –property option to set the print.key and print.value properties to true.
+use below command- 
+ 
+ 
+ .\bin\windows\Kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my-topic --formatter kafka.tools.DefaultMessageFormatter --property print.timestamp=true --property print.key=true –property print.value=true --from-beginning
+
+
+
+
+--property "parse.key=true" --property "key.separator=:"
+
+
+
+
+
+broker.id=1
+listeners=PLAINTEXT://localhost:9093
+log.dirs=C:/kafka_2.12-3.8.0/kafka-logs2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

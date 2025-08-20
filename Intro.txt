@@ -1,0 +1,80 @@
+Hello I am Vijaykumar Kolli, from Ramdurg, Karantaka. 
+I completed my graduation in the year 2022. 
+I joined CG in 2023, where I've been working as a developer for the past six months. 
+In this role, I had the opportunity to learn a lot about building software and solving problems. 
+Out side of work, I enjoy spending my free time to playing cricket and chess.
+
+
+---
+
+Project Objective:
+Create a user-friendly platform for currency exchange.
+Offer competitive rates, fast transactions, and transparency.
+Streamline currency exchange processes for individuals and businesses.
+
+Scope of the Project:
+Develop a Java-based platform.
+Enable seamless transactions between various currencies.
+Focus on real-time rates, secure processing, and user convenience.
+
+Reasons for Using Java:
+Works on any system.
+Reliable and scalable for handling multiple transactions.
+Secure with ample tools available for development.
+
+User Experience Priorities:
+Simplify navigation and ensure clarity.
+Provide real-time rates and facilitate quick transactions.
+Incorporate personalized features for enhanced convenience.
+
+Platform Access:
+Visit [URL] to access the currency exchange platform.
+Input 'from' and 'to' currencies to exchange.
+Click 'Exchange' to view the converted amount based on the current rate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FSUKBR24_UCBNB_TM_ONBD_MAYUR_G - 100782153
+Task	NBT - NON BILLABLE TASK
