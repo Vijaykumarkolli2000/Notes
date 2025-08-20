@@ -1,0 +1,144 @@
+Azure:
+====================
+
+Pipeline:--> pipeline is logical grouping of activities that together perform a task.
+	eg: pipeline can have set of activities that take data from ADLS and perform some transfomation of data using U-SQL and load data into SQL DB.
+
+Activity:--> Activities in a pipeline defines actions to perform on data.
+	eg: copy a data from one location of blob storage and load in to anther location of blob storage.
+Type of activities:
+1) Data Movement Activities: -> move data from one to anther location
+2) Data transfomation Activities: -> Sort the data like 10cl to 4cl, and transform data one to anther locality.
+3) Data Control Flow Activities: -> flow of data, like if else statement in pipeline environment.
+
+Linked Service and Data Sets: 
+	Linked service are used to connect Other resources with Azure Data Factory.
+	Linked services are like connection strings for resources to connect.
+
+	DataSets are simply points or references the data, which you want to use in your activities as input or output.
+
+Triggers in Azure Data Factory: -> 
+	# Triggers - You can execute your pipeline.
+	# Triggers determines when a pipeline execution needs to be kicked off.
+	# Triggers and Pipelines have a ManyToMany relationship(except for the tumbling window trigger).
+	# Multiple triggers kickoff only one pipeline and vice versa.
+Types of triggers:
+	1) schedule Trigger: -> A trigger that invokes a pipeline on wall clock schedule.
+	2) Tumbling window trigger: -> a trigger that operates on periodic intervals, while also rataining state.
+	3) Event-Based-trigger: -> A trigger that responds to an event.
+
+
+
+Azure virtual machines:
+	In corporate data centers, applications are diployed to physical server.
+	Deployed -> rent virtual server, virtual machines(virtual server in Azure), Azure virtual machines(provision and manage virtual machines).
+
+
+
+
+
+
+
+chmod 400 my-first-vm_key.pem
+ssh -i YOUR_KEY_PATH azureuser@PUBLIC_IP_ADDRESS
+ssh -i my-first-vm_key.pem azureuser@13.90.35.80
+ 
+apt-get -y update
+apt-get -y install nginx
+ 
+echo "Hello World"
+echo "Hello World" > /var/www/html/index.html
+echo "Hello World from in28minutes" > /var/www/html/index.html
+ 
+hostname
+echo "$(hostname)"
+echo "Hello World from $(hostname)"
+echo "Hello World from $(hostname)" > /var/www/html/index.html
+
+$hostname -i --> gives Ip address
+
+
+Key Changes
+
+You do not need an SSH key anymore
+
+Instead of python --version you can use python3 --version
+
+
+sudo su --> execute commands as root user
+apt-get -y update -->update package index
+apt-get -y install nginx --> install nginx and start web server.\
+echo "Welcome to in28minutes $(hostname)" > /var/www/html/index.html
+
+
+mysql --host=mysql-server-in28minutes.mysql.database.azure.com --user=mysqlserver -p
+ 
+create database todos;
+use todos;
+create table user (id integer, username varchar(30) );
+describe user;
+insert into user values (1, 'Ranjith');
+insert into user values (2, 'Ramesh');
+select * from user;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AZ-900
+===========
+Bright Blue Color of Cloudless Sky.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
